@@ -1,5 +1,5 @@
 import { defineConfig } from 'astro/config';
-import vercel from "@astrojs/vercel/serverless";
+import vercel from "@astrojs/vercel/static";
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,5 +10,5 @@ export default defineConfig({
             prefixDefaultLocale: true
         }
     },
-    output: "server", adapter: vercel()
+    output: "static", adapter: vercel()
 });
