@@ -5,7 +5,7 @@ export const userMiddleware = defineMiddleware(async (ctx, next) => {
     // this response might come from Astro's i18n middleware, and it might return a 404
     const response = await next();
     // the /about page is an exception and we want to render it
-    if (ctx.url.startsWith("/about")) {
+    if (ctx.url.startsWith("/a-propos")) {
         return new Response("About page", {
             status: 200
         });
