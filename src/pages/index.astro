@@ -1,3 +1,9 @@
 ---
-if (Astro.preferredLocale) Astro.redirect(`/${Astro.preferredLocale}`);
+const preferredLocale = Astro.preferredLocale;
+
+if (preferredLocale) {
+    return Astro.redirect(`/${preferredLocale}/`);
+} else {
+    return Astro.redirect(`/en/`);
+}
 ---
