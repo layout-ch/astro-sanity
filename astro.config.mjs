@@ -6,7 +6,9 @@ export default defineConfig({
     i18n: {
         defaultLocale: "fr",
         locales: ["fr", "de", "en"],
-        routing: "manual"
+        routing: {
+            prefixDefaultLocale: true
+        }
     },
     output: "server", adapter: vercel()
 });
