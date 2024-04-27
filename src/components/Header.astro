@@ -1,0 +1,23 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+---
+
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/a-propos">A propos</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+</nav>
+
+<style>
+    nav {
+        margin-bottom: 50px;
+        padding: 30px;
+    }
+    ul {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+</style>
