@@ -13,6 +13,8 @@ export default defineConfig({
     locales: ["fr", "de", "en"],
     strategy: "prefix",
     sitemap: true,
-
+    client: {
+      data: true
+    }
   })]
 });
