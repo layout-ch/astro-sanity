@@ -1,0 +1,14 @@
+{
+    "menu1": "Accueil",
+    "menu2": "À propos",
+    "pages": {
+        "home": {
+            "title": "Salut",
+            "home": "Page d'accueil"
+        },
+        "about": {
+            "title": "Salut à propos",
+            "home": "Page à propos"
+        }
+    }
+}

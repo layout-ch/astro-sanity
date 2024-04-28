@@ -1,0 +1,14 @@
+{
+    "menu1": "Homeseite",
+    "menu2": "Über uns",
+    "pages": {
+        "home": {
+            "title": "Hallo",
+            "home": "Startseite"
+        },
+        "about": {
+            "title": "Hallo über uns",
+            "home": "Seite über uns"
+        }
+    }
+}
