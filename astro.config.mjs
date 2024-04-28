@@ -7,7 +7,8 @@ export default defineConfig({
         defaultLocale: "fr",
         locales: ["fr", "de", "en"],
         routing: {
-            prefixDefaultLocale: true
+            prefixDefaultLocale: true,
+            redirectToDefaultLocale: false
         }
     },
     output: "server", adapter: vercel()
