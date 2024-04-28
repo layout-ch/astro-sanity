@@ -4,11 +4,13 @@
     "pages": {
         "home": {
             "title": "Accueil",
-            "home": "Page d'accueil"
+            "home": "Page d'accueil",
+            "content": "Ceci est le contenu de la page d'accueil."
         },
         "about": {
             "title": "À propos",
-            "home": "Page à propos"
+            "home": "Page à propos",
+            "content": "Ceci est le contenu de la page à propos."
         }
     }
 }

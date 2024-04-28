@@ -4,11 +4,13 @@
     "pages": {
         "home": {
             "title": "Homepage",
-            "home": "Homepage"
+            "home": "Homepage",
+            "content": "This is the content of the homepage."
         },
         "about": {
             "title": "About us",
-            "home": "About us page"
+            "home": "About us page",
+            "content": "This is the content of the about page."
         }
     }
 }

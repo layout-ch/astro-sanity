@@ -13,5 +13,11 @@ export default defineConfig({
     locales: ["fr", "de", "en"],
     strategy: "prefix",
     sitemap: true,
+    pages: {
+      "a-propos": {
+        de: "ueber-uns",
+        en: "about-us"
+      }
+    }
   })]
 });
