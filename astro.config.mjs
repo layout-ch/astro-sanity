@@ -11,6 +11,14 @@ export default defineConfig({
   output: "hybrid",
   adapter: vercel(),
   integrations: [
+    sanityIntegration(
+      {
+        projectId: "t9cmnozc",
+        dataset: "production",
+        useCdn: false,
+        studioBasePath: "/admin",
+      }
+    ), react(),
     liciousI18n({
       defaultLocale: "fr",
       locales: ["fr", "de", "en"],
@@ -22,13 +30,5 @@ export default defineConfig({
           en: "about-us"
         }
       }
-    })
-    , sanityIntegration(
-      {
-        projectId: "t9cmnozc",
-        dataset: "production",
-        useCdn: false,
-        studioBasePath: "/admin",
-      }
-    ), react()]
+    })]
 });
