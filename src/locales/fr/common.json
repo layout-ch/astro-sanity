@@ -3,11 +3,11 @@
     "menu2": "À propos",
     "pages": {
         "home": {
-            "title": "Salut",
+            "title": "Accueil",
             "home": "Page d'accueil"
         },
         "about": {
-            "title": "Salut à propos",
+            "title": "À propos",
             "home": "Page à propos"
         }
     }

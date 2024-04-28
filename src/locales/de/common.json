@@ -3,11 +3,11 @@
     "menu2": "Über uns",
     "pages": {
         "home": {
-            "title": "Hallo",
+            "title": "Startseite",
             "home": "Startseite"
         },
         "about": {
-            "title": "Hallo über uns",
+            "title": "Über uns",
             "home": "Seite über uns"
         }
     }

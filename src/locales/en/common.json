@@ -3,11 +3,11 @@
     "menu2": "About us",
     "pages": {
         "home": {
-            "title": "Hello",
+            "title": "Homepage",
             "home": "Homepage"
         },
         "about": {
-            "title": "Hello about",
+            "title": "About us",
             "home": "About us page"
         }
     }
