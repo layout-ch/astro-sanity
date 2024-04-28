@@ -16,8 +16,5 @@
     "astro": "^4.7.0",
     "i18next": "^23.11.2",
     "typescript": "^5.4.5"
-  },
-  "devDependencies": {
-    "@vercel/node": "^3.0.27"
   }
 }
