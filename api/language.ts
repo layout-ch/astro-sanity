@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
-export default function handler(req: VercelRequest, res: VercelResponse) {
+export default function handler(req: VercelRequest, res: VercelResponse): void {
     const acceptedLanguages = req.headers['accept-language'];
 
     if (acceptedLanguages) {
