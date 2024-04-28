@@ -1,12 +1,29 @@
 ---
-
+import { getRelativeLocaleUrl } from "astro:i18n";
 ---
 
 <nav>
     <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/a-propos">A propos</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li>
+            <a href={getRelativeLocaleUrl(Astro.currentLocale as string, "/")}
+                >Home</a
+            >
+        </li>
+        <li>
+            <a
+                href={getRelativeLocaleUrl(
+                    Astro.currentLocale as string,
+                    "/a-propos",
+                )}>A propos</a
+            >
+        </li>
+        <li>
+            <a
+                href={getRelativeLocaleUrl(
+                    Astro.currentLocale as string,
+                    "/contact",
+                )}>Contact</a>
+        </li>
     </ul>
 </nav>
 
