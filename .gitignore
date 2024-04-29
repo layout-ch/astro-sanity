@@ -6,7 +6,6 @@ dist/
 .vercel/
 # dependencies
 node_modules/
-studio/
 # logs
 npm-debug.log*
 yarn-debug.log*
