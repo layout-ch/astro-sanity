@@ -2,8 +2,7 @@ import { defineConfig } from 'astro/config';
 import vercel from "@astrojs/vercel/serverless";
 import liciousI18n from "@astrolicious/i18n";
 
-import { sanityIntegration } from "@sanity/astro";
-import react from "@astrojs/react";
+// import { sanityIntegration } from "@sanity/astro";
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,14 +10,13 @@ export default defineConfig({
   output: "hybrid",
   adapter: vercel(),
   integrations: [
-    sanityIntegration(
-      {
-        projectId: "t9cmnozc",
-        dataset: "production",
-        useCdn: false,
-        studioBasePath: "/admin",
-      }
-    ), react(),
+    // sanityIntegration(
+    //   {
+    //     projectId: "t9cmnozc",
+    //     dataset: "production",
+    //     useCdn: false,
+    //   }
+    // ),
     liciousI18n({
       defaultLocale: "fr",
       locales: ["fr", "de", "en"],
